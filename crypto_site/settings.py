@@ -25,7 +25,9 @@ SECRET_KEY = '40*1#9dkd2z!cdt!p7=u=#d)_tk60#nyv#j(c2mz!lzae8)z0w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'crypto-news-network.herokuapp.com'
+]
 
 
 # Application definition
